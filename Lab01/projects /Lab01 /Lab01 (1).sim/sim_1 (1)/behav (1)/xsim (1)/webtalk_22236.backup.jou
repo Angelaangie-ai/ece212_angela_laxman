@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Aug 30 09:20:13 2022
+# Process ID: 22236
+# Current directory: C:/Users/busheska/Desktop/ece212_angela_laxman-main/Lab01/projects/Lab01/Lab01.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/busheska/Desktop/ece212_angela_laxman-main/Lab01/projects/Lab01/Lab01.sim/sim_1/behav/xsim/xsim.dir/sevenseg_ext_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/busheska/Desktop/ece212_angela_laxman-main/Lab01/projects/Lab01/Lab01.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/busheska/Desktop/ece212_angela_laxman-main/Lab01/projects/Lab01/Lab01.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/busheska/Desktop/ece212_angela_laxman-main/Lab01/projects/Lab01/Lab01.sim/sim_1/behav/xsim/xsim.dir/sevenseg_ext_tb_behav/webtalk/xsim_webtalk.tcl -notrace
