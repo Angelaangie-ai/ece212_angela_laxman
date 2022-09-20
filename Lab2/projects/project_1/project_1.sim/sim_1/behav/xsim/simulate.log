@@ -1,0 +1,155 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+dbl_dabble input:    X
+result     Z     z    X    x
+dbl_dabble input:    Z
+add3o 13 0000 zzzz z000 1001 00000000
+result     Z     z    1    2
+dbl_dabble input:    Z
+result     Z     z    0    1
+dbl_dabble input:    Z
+result     Z     z    0    2
+dbl_dabble input:    Z
+result     Z     z    0    3
+dbl_dabble input:    Z
+result     Z     z    0    4
+dbl_dabble input:    Z
+result     Z     z    0    5
+dbl_dabble input:    Z
+result     Z     z    0    6
+dbl_dabble input:    Z
+result     Z     z    0    7
+dbl_dabble input:    Z
+result     Z     z    0    8
+dbl_dabble input:    Z
+result     Z     z    0    9
+dbl_dabble input:    Z
+add3o 13 0000 zzzz z000 1000 00000000
+result     Z     z    1    0
+dbl_dabble input:    Z
+add3o 13 0000 zzzz z000 1000 1000000000000
+result     Z     z    1    1
+dbl_dabble input:    Z
+add3o 13 0000 zzzz z000 1001 00000000
+result     Z     z    1    2
+dbl_dabble input:    Z
+result     Z     z    0    1
+dbl_dabble input:    Z
+result     Z     z    0    2
+dbl_dabble input:    Z
+result     Z     z    0    3
+dbl_dabble input:    Z
+result     Z     z    0    4
+dbl_dabble input:    Z
+result     Z     z    0    5
+dbl_dabble input:    Z
+result     Z     z    0    6
+dbl_dabble input:    Z
+result     Z     z    0    7
+dbl_dabble input:    Z
+result     Z     z    0    8
+dbl_dabble input:    Z
+result     Z     z    0    9
+dbl_dabble input:    Z
+add3o 13 0000 zzzz z000 1000 00000000
+result     Z     z    1    0
+dbl_dabble input:    Z
+add3o 13 0000 zzzz z000 1000 1000000000000
+result     Z     z    1    1
+dbl_dabble input:    Z
+add3o 13 0000 zzzz z000 1001 00000000
+result     Z     z    1    2
+dbl_dabble input:    Z
+result     Z     z    0    1
+dbl_dabble input:    Z
+result     Z     z    0    2
+dbl_dabble input:    Z
+result     Z     z    0    3
+dbl_dabble input:    Z
+result     Z     z    0    4
+dbl_dabble input:    Z
+result     Z     z    0    5
+dbl_dabble input:    Z
+result     Z     z    0    6
+dbl_dabble input:    Z
+result     Z     z    0    7
+dbl_dabble input:    Z
+result     Z     z    0    8
+dbl_dabble input:    Z
+result     Z     z    0    9
+dbl_dabble input:    Z
+add3o 13 0000 zzzz z000 1000 00000000
+result     Z     z    1    0
+dbl_dabble input:    Z
+add3o 13 0000 zzzz z000 1000 1000000000000
+result     Z     z    1    1
+dbl_dabble input:    Z
+add3o 13 0000 zzzz z000 1001 00000000
+result     Z     z    1    2
+dbl_dabble input:    Z
+result     Z     z    0    1
+dbl_dabble input:    Z
+result     Z     z    0    2
+dbl_dabble input:    Z
+result     Z     z    0    3
+dbl_dabble input:    Z
+result     Z     z    0    4
+dbl_dabble input:    Z
+result     Z     z    0    5
+dbl_dabble input:    Z
+result     Z     z    0    6
+dbl_dabble input:    Z
+result     Z     z    0    7
+dbl_dabble input:    Z
+result     Z     z    0    8
+dbl_dabble input:    Z
+result     Z     z    0    9
+dbl_dabble input:    Z
+add3o 13 0000 zzzz z000 1000 00000000
+result     Z     z    1    0
+dbl_dabble input:    Z
+add3o 13 0000 zzzz z000 1000 1000000000000
+result     Z     z    1    1
+dbl_dabble input:    Z
+add3o 13 0000 zzzz z000 1001 00000000
+result     Z     z    1    2
+dbl_dabble input:    Z
+result     Z     z    0    1
+dbl_dabble input:    Z
+result     Z     z    0    2
+dbl_dabble input:    Z
+result     Z     z    0    3
+dbl_dabble input:    Z
+result     Z     z    0    4
+dbl_dabble input:    Z
+result     Z     z    0    5
+dbl_dabble input:    Z
+result     Z     z    0    6
+dbl_dabble input:    Z
+result     Z     z    0    7
+dbl_dabble input:    Z
+result     Z     z    0    8
+dbl_dabble input:    Z
+result     Z     z    0    9
+dbl_dabble input:    Z
+add3o 13 0000 zzzz z000 1000 00000000
+result     Z     z    1    0
+dbl_dabble input:    Z
+add3o 13 0000 zzzz z000 1000 1000000000000
+result     Z     z    1    1
+dbl_dabble input:    Z
+add3o 13 0000 zzzz z000 1001 00000000
+result     Z     z    1    2
+dbl_dabble input:    Z
+result     Z     z    0    1
+dbl_dabble input:    Z
+result     Z     z    0    2
+dbl_dabble input:    Z
+result     Z     z    0    3
+dbl_dabble input:    Z
+result     Z     z    0    4
+dbl_dabble input:    Z
+result     Z     z    0    5
+dbl_dabble input:    Z
+result     Z     z    0    6
+$stop called at time : 666 ns : File "C:/Users/poudell/Documents/Lab2/hdl/count_h_tb.sv" Line 54

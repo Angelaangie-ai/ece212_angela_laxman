@@ -1,0 +1,19 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 11ab8254429441e5980b0f84a7f1f0de --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot count_h_tb_behav xil_defaultlib.count_h_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 13 for port 'b' [C:/Users/poudell/Documents/Lab2/hdl/count_h.sv:76]
+WARNING: [VRFC 10-3823] variable 'am_pm' might have multiple concurrent drivers [C:/Users/poudell/Documents/Lab2/hdl/count_h_tb.sv:40]
+WARNING: [VRFC 10-3823] variable 'gnd' might have multiple concurrent drivers [C:/Users/poudell/Documents/Lab2/hdl/count_h.sv:66]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.counter_rc_mod(MOD=25,W=5,R=12,C...
+Compiling module xil_defaultlib.dbl_dabble_ext
+Compiling module xil_defaultlib.count_h
+Compiling module xil_defaultlib.count_h_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot count_h_tb_behav

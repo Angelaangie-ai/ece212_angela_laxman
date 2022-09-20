@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../../hdl/count_s.sv" \
+"../../../../../../hdl/counter_rc__mod.sv" \
+"../../../../../../hdl/dbl_dabble_ext.sv" \
+"../../../../../../hdl/count_s_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

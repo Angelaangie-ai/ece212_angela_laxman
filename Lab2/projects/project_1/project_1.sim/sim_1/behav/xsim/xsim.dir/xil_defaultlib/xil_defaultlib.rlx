@@ -1,0 +1,13 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/poudell/Documents/Lab2/hdl/count_h.sv,1663079981,systemVerilog,,C:/Users/poudell/Documents/Lab2/hdl/counter_rc__mod.sv,,count_h,,uvm,,,,,,
+C:/Users/poudell/Documents/Lab2/hdl/count_h_tb.sv,1663080411,systemVerilog,,,,count_h_tb,,uvm,,,,,,
+C:/Users/poudell/Documents/Lab2/hdl/count_m_tb.sv,1663079272,systemVerilog,,,,count_m_tb,,uvm,,,,,,
+C:/Users/poudell/Documents/Lab2/hdl/count_s.sv,1663078683,systemVerilog,,C:/Users/poudell/Documents/Lab2/hdl/counter_rc__mod.sv,,count_s,,uvm,,,,,,
+C:/Users/poudell/Documents/Lab2/hdl/count_s_tb.sv,1663078661,systemVerilog,,,,count_s_tb,,uvm,,,,,,
+C:/Users/poudell/Documents/Lab2/hdl/counter_rc__mod.sv,1663071508,systemVerilog,,C:/Users/poudell/Documents/Lab2/hdl/dbl_dabble_ext.sv,,counter_rc_mod,,uvm,,,,,,
+C:/Users/poudell/Documents/Lab2/hdl/dbl_dabble_ext.sv,1663073970,systemVerilog,,C:/Users/poudell/Documents/Lab2/hdl/count_h_tb.sv,,dbl_dabble_ext,,uvm,,,,,,
+C:/Users/poudell/Documents/Lab2/projects/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/poudell/Documents/Lab2/projects/project_1/project_1.srcs/sources_1/new/count_m.sv,1663079129,systemVerilog,,C:/Users/poudell/Documents/Lab2/hdl/counter_rc__mod.sv,,count_m,,uvm,,,,,,
