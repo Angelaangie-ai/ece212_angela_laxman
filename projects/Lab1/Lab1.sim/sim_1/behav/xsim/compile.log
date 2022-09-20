@@ -1,9 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/poudell/Documents/Lab1/hdl/sevenseg_ext_n.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module sevenseg_ext_n
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/poudell/Documents/Lab1/hdl/sevenseg_ext_tb.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module sevenseg_ext_tb
-ERROR: [VRFC 10-3008] '.name implicit port connection' not allowed in this dialect. Use SystemVerilog mode [C:/Users/poudell/Documents/Lab1/hdl/sevenseg_ext_tb.v:28]
-ERROR: [VRFC 10-2939] 'logic' is an unknown type [C:/Users/poudell/Documents/Lab1/hdl/sevenseg_ext_tb.v:24]
-ERROR: [VRFC 10-2939] 'logic' is an unknown type [C:/Users/poudell/Documents/Lab1/hdl/sevenseg_ext_tb.v:25]
-ERROR: [VRFC 10-2939] 'logic' is an unknown type [C:/Users/poudell/Documents/Lab1/hdl/sevenseg_ext_tb.v:26]
-ERROR: [VRFC 10-2865] module 'sevenseg_ext_tb' ignored due to previous errors [C:/Users/poudell/Documents/Lab1/hdl/sevenseg_ext_tb.v:23]
