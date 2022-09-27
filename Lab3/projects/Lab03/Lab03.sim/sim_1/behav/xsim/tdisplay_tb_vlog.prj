@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../../hdl/conv_sgnmag.sv" \
+"../../../../../../hdl/dbl_dabble_ext.sv" \
+"../../../../../../hdl/round.sv" \
+"../../../../../../hdl/tconvert.sv" \
+"../../../../../../hdl/tdisplay.sv" \
+"../../../../../../hdl/tdisplay_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

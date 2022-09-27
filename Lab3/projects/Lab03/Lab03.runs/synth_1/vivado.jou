@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Sep 26 16:50:15 2022
+# Process ID: 18024
+# Current directory: C:/Users/poudell/Documents/Lab3/projects/Lab03/Lab03.runs/synth_1
+# Command line: vivado.exe -log lab03_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lab03_top.tcl
+# Log file: C:/Users/poudell/Documents/Lab3/projects/Lab03/Lab03.runs/synth_1/lab03_top.vds
+# Journal file: C:/Users/poudell/Documents/Lab3/projects/Lab03/Lab03.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source lab03_top.tcl -notrace

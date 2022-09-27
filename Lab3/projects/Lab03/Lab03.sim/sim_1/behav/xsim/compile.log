@@ -1,0 +1,13 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/poudell/Documents/Lab3/hdl/conv_sgnmag.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conv_sgnmag
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/poudell/Documents/Lab3/hdl/dbl_dabble_ext.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dbl_dabble_ext
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/poudell/Documents/Lab3/hdl/round.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module round
+INFO: [VRFC 10-2458] undeclared symbol txt10_mag_r, assumed default net type wire [C:/Users/poudell/Documents/Lab3/hdl/round.sv:26]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/poudell/Documents/Lab3/hdl/tconvert.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tconvert
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/poudell/Documents/Lab3/hdl/tdisplay.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tdisplay
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/poudell/Documents/Lab3/hdl/tdisplay_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tdisplay_tb

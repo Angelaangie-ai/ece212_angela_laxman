@@ -1,0 +1,1 @@
+-wto "bdafc9df197b42819b215b2179388cbf" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "TempSensorCtl_behav" "xil_defaultlib.TempSensorCtl" -log "elaborate.log" 
