@@ -1,9 +1,3 @@
-/* 
- * File:   lab5_p1.c
- * Author: labella
- *
- * Created on February 22, 2022, 1:19 PM
- */
 
 #include "ece212.h"
 
