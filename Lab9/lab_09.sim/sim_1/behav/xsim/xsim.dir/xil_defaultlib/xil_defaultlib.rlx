@@ -1,0 +1,23 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/busheska/Desktop/ece212_angela_laxman-main/lab_09.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/busheska/Desktop/ece212_angela_laxman-main/lab_09.srcs/sim_1/new/mipsbench.sv,1668523158,systemVerilog,,,,mipsbench,,uvm,,,,,,
+C:/Users/busheska/Desktop/mips_L_multi-main/sv/alu.sv,1667912743,systemVerilog,,C:/Users/busheska/Desktop/mips_L_multi-main/sv/mips_decls_p.sv,,alu,,uvm,,,,,,
+C:/Users/busheska/Desktop/mips_L_multi-main/sv/aludec.sv,1668488873,systemVerilog,,C:/Users/busheska/Desktop/mips_L_multi-main/sv/controller.sv,,aludec,,uvm,,,,,,
+C:/Users/busheska/Desktop/mips_L_multi-main/sv/controller.sv,1668488516,systemVerilog,,C:/Users/busheska/Desktop/mips_L_multi-main/sv/datapath.sv,,controller,,uvm,,,,,,
+C:/Users/busheska/Desktop/mips_L_multi-main/sv/datapath.sv,1669124394,systemVerilog,,C:/Users/busheska/Desktop/mips_L_multi-main/sv/flopenr.sv,,datapath,,uvm,,,,,,
+C:/Users/busheska/Desktop/mips_L_multi-main/sv/flopenr.sv,1667912743,systemVerilog,,C:/Users/busheska/Desktop/mips_L_multi-main/sv/flopr.sv,,flopenr,,uvm,,,,,,
+C:/Users/busheska/Desktop/mips_L_multi-main/sv/flopr.sv,1667912743,systemVerilog,,C:/Users/busheska/Desktop/mips_L_multi-main/sv/maindec.sv,,flopr,,uvm,,,,,,
+C:/Users/busheska/Desktop/mips_L_multi-main/sv/maindec.sv,1668518270,systemVerilog,,C:/Users/busheska/Desktop/mips_L_multi-main/sv/mem.sv,,maindec,,uvm,,,,,,
+C:/Users/busheska/Desktop/mips_L_multi-main/sv/mem.sv,1667912743,systemVerilog,,C:/Users/busheska/Desktop/mips_L_multi-main/sv/mips_multi.sv,,mem,,uvm,,,,,,
+C:/Users/busheska/Desktop/mips_L_multi-main/sv/mips_decls_p.sv,1667912743,systemVerilog,C:/Users/busheska/Desktop/mips_L_multi-main/sv/aludec.sv;C:/Users/busheska/Desktop/mips_L_multi-main/sv/controller.sv;C:/Users/busheska/Desktop/mips_L_multi-main/sv/datapath.sv;C:/Users/busheska/Desktop/mips_L_multi-main/sv/maindec.sv;C:/Users/busheska/Desktop/mips_L_multi-main/sv/mips_multi.sv,C:/Users/busheska/Desktop/mips_L_multi-main/sv/aludec.sv,,mips_decls_p,,uvm,,,,,,
+C:/Users/busheska/Desktop/mips_L_multi-main/sv/mips_multi.sv,1667912743,systemVerilog,,C:/Users/busheska/Desktop/mips_L_multi-main/sv/mips_multi_top.sv,,mips_multi,,uvm,,,,,,
+C:/Users/busheska/Desktop/mips_L_multi-main/sv/mips_multi_top.sv,1667912743,systemVerilog,,C:/Users/busheska/Desktop/mips_L_multi-main/sv/mux2.sv,,mips_multi_top,,uvm,,,,,,
+C:/Users/busheska/Desktop/mips_L_multi-main/sv/mux2.sv,1667912743,systemVerilog,,C:/Users/busheska/Desktop/mips_L_multi-main/sv/mux3.sv,,mux2,,uvm,,,,,,
+C:/Users/busheska/Desktop/mips_L_multi-main/sv/mux3.sv,1667912743,systemVerilog,,C:/Users/busheska/Desktop/mips_L_multi-main/sv/mux4.sv,,mux3,,uvm,,,,,,
+C:/Users/busheska/Desktop/mips_L_multi-main/sv/mux4.sv,1667912743,systemVerilog,,C:/Users/busheska/Desktop/mips_L_multi-main/sv/regfile.sv,,mux4,,uvm,,,,,,
+C:/Users/busheska/Desktop/mips_L_multi-main/sv/regfile.sv,1667912743,systemVerilog,,C:/Users/busheska/Desktop/mips_L_multi-main/sv/signext.sv,,regfile,,uvm,,,,,,
+C:/Users/busheska/Desktop/mips_L_multi-main/sv/signext.sv,1667912743,systemVerilog,,C:/Users/busheska/Desktop/mips_L_multi-main/sv/testbench.sv,,signext,,uvm,,,,,,
+C:/Users/busheska/Desktop/mips_L_multi-main/sv/testbench.sv,1667912743,systemVerilog,,,,testbench,,uvm,,,,,,

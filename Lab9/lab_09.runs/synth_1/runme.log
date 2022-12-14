@@ -1,0 +1,256 @@
+
+*** Running vivado
+    with args -log testbench.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source testbench.tcl
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source testbench.tcl -notrace
+Command: synth_design -top testbench -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 14096
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1112.414 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'testbench' [C:/Users/busheska/Desktop/mips_L_multi-main/sv/testbench.sv:10]
+	Parameter LIMIT bound to: 100 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'mips_multi_top' [C:/Users/busheska/Desktop/mips_L_multi-main/sv/mips_multi_top.sv:11]
+INFO: [Synth 8-6157] synthesizing module 'mips_multi' [C:/Users/busheska/Desktop/mips_L_multi-main/sv/mips_multi.sv:11]
+INFO: [Synth 8-6157] synthesizing module 'controller' [C:/Users/busheska/Desktop/mips_L_multi-main/sv/controller.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'maindec' [C:/Users/busheska/Desktop/mips_L_multi-main/sv/maindec.sv:15]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/busheska/Desktop/mips_L_multi-main/sv/maindec.sv:81]
+INFO: [Synth 8-6155] done synthesizing module 'maindec' (1#1) [C:/Users/busheska/Desktop/mips_L_multi-main/sv/maindec.sv:15]
+INFO: [Synth 8-6157] synthesizing module 'aludec' [C:/Users/busheska/Desktop/mips_L_multi-main/sv/aludec.sv:8]
+INFO: [Synth 8-6155] done synthesizing module 'aludec' (2#1) [C:/Users/busheska/Desktop/mips_L_multi-main/sv/aludec.sv:8]
+WARNING: [Synth 8-6104] Input port 'funct' has an internal driver [C:/Users/busheska/Desktop/mips_L_multi-main/sv/controller.sv:21]
+INFO: [Synth 8-6155] done synthesizing module 'controller' (3#1) [C:/Users/busheska/Desktop/mips_L_multi-main/sv/controller.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'datapath' [C:/Users/busheska/Desktop/mips_L_multi-main/sv/datapath.sv:20]
+INFO: [Synth 8-6157] synthesizing module 'flopenr' [C:/Users/busheska/Desktop/mips_L_multi-main/sv/flopenr.sv:9]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'flopenr' (4#1) [C:/Users/busheska/Desktop/mips_L_multi-main/sv/flopenr.sv:9]
+INFO: [Synth 8-6157] synthesizing module 'mux2' [C:/Users/busheska/Desktop/mips_L_multi-main/sv/mux2.sv:9]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux2' (5#1) [C:/Users/busheska/Desktop/mips_L_multi-main/sv/mux2.sv:9]
+INFO: [Synth 8-6157] synthesizing module 'mem' [C:/Users/busheska/Desktop/mips_L_multi-main/sv/mem.sv:12]
+INFO: [Synth 8-3876] $readmem data file 'memfile.dat' is read successfully [C:/Users/busheska/Desktop/mips_L_multi-main/sv/mem.sv:22]
+INFO: [Synth 8-6155] done synthesizing module 'mem' (6#1) [C:/Users/busheska/Desktop/mips_L_multi-main/sv/mem.sv:12]
+WARNING: [Synth 8-6104] Input port 'readdata' has an internal driver [C:/Users/busheska/Desktop/mips_L_multi-main/sv/datapath.sv:68]
+INFO: [Synth 8-6157] synthesizing module 'flopr' [C:/Users/busheska/Desktop/mips_L_multi-main/sv/flopr.sv:9]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'flopr' (7#1) [C:/Users/busheska/Desktop/mips_L_multi-main/sv/flopr.sv:9]
+INFO: [Synth 8-6157] synthesizing module 'mux2__parameterized0' [C:/Users/busheska/Desktop/mips_L_multi-main/sv/mux2.sv:9]
+	Parameter WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux2__parameterized0' (7#1) [C:/Users/busheska/Desktop/mips_L_multi-main/sv/mux2.sv:9]
+INFO: [Synth 8-6157] synthesizing module 'regfile' [C:/Users/busheska/Desktop/mips_L_multi-main/sv/regfile.sv:9]
+INFO: [Synth 8-6155] done synthesizing module 'regfile' (8#1) [C:/Users/busheska/Desktop/mips_L_multi-main/sv/regfile.sv:9]
+INFO: [Synth 8-6157] synthesizing module 'signext' [C:/Users/busheska/Desktop/mips_L_multi-main/sv/signext.sv:10]
+INFO: [Synth 8-6155] done synthesizing module 'signext' (9#1) [C:/Users/busheska/Desktop/mips_L_multi-main/sv/signext.sv:10]
+INFO: [Synth 8-6157] synthesizing module 'mux4' [C:/Users/busheska/Desktop/mips_L_multi-main/sv/mux4.sv:13]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/busheska/Desktop/mips_L_multi-main/sv/mux4.sv:20]
+INFO: [Synth 8-6155] done synthesizing module 'mux4' (10#1) [C:/Users/busheska/Desktop/mips_L_multi-main/sv/mux4.sv:13]
+INFO: [Synth 8-6157] synthesizing module 'alu' [C:/Users/busheska/Desktop/mips_L_multi-main/sv/alu.sv:9]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (11#1) [C:/Users/busheska/Desktop/mips_L_multi-main/sv/alu.sv:9]
+INFO: [Synth 8-6157] synthesizing module 'mux3' [C:/Users/busheska/Desktop/mips_L_multi-main/sv/mux3.sv:13]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux3' (12#1) [C:/Users/busheska/Desktop/mips_L_multi-main/sv/mux3.sv:13]
+INFO: [Synth 8-6155] done synthesizing module 'datapath' (13#1) [C:/Users/busheska/Desktop/mips_L_multi-main/sv/datapath.sv:20]
+INFO: [Synth 8-6155] done synthesizing module 'mips_multi' (14#1) [C:/Users/busheska/Desktop/mips_L_multi-main/sv/mips_multi.sv:11]
+INFO: [Synth 8-6155] done synthesizing module 'mips_multi_top' (15#1) [C:/Users/busheska/Desktop/mips_L_multi-main/sv/mips_multi_top.sv:11]
+WARNING: [Synth 8-85] always block has no event control specified [C:/Users/busheska/Desktop/mips_L_multi-main/sv/testbench.sv:28]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/busheska/Desktop/mips_L_multi-main/sv/testbench.sv:37]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/busheska/Desktop/mips_L_multi-main/sv/testbench.sv:37]
+INFO: [Synth 8-251] Simulation succeeded [C:/Users/busheska/Desktop/mips_L_multi-main/sv/testbench.sv:38]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [C:/Users/busheska/Desktop/mips_L_multi-main/sv/testbench.sv:40]
+INFO: [Synth 8-251] Simulation failed [C:/Users/busheska/Desktop/mips_L_multi-main/sv/testbench.sv:41]
+INFO: [Synth 8-6155] done synthesizing module 'testbench' (16#1) [C:/Users/busheska/Desktop/mips_L_multi-main/sv/testbench.sv:10]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1112.414 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1112.414 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1112.414 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'maindec'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   FETCH |                    0000000000001 |                             0000
+                  DECODE |                    0000000000010 |                             0001
+                  MEMADR |                    0000000000100 |                             0010
+                   MEMRD |                    0000000001000 |                             0011
+                   MEMWB |                    0000000010000 |                             0100
+                   MEMWR |                    0000000100000 |                             0101
+                 RTYPEEX |                    0000001000000 |                             0110
+                 RTYPEWB |                    0000010000000 |                             0111
+                   BEQEX |                    0000100000000 |                             1000
+                  ADDIEX |                    0001000000000 |                             1001
+                  ADDIWB |                    0010000000000 |                             1010
+                     JEX |                    0100000000000 |                             1011
+                   ERROR |                    1000000000000 |                             1100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'maindec'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1112.414 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 6     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 5     
+	   4 Input   32 Bit        Muxes := 2     
+	   8 Input   32 Bit        Muxes := 1     
+	  13 Input   13 Bit        Muxes := 1     
+	   7 Input   13 Bit        Muxes := 1     
+	   3 Input   13 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 1     
+	   9 Input    3 Bit        Muxes := 1     
+	  13 Input    2 Bit        Muxes := 1     
+	  13 Input    1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Reason is one or more of the following :
+	1: No valid clock found for write to RAM. 
+RAM "DUV/U_MIPS/U_DP/U_REGFILE/rf_reg" dissolved into registers
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1112.414 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1112.414 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1112.414 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1112.414 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1112.414 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1112.414 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1112.414 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1112.414 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1112.414 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     0|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1112.414 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1112.414 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1112.414 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1112.414 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1201.605 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+51 Infos, 6 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1201.605 ; gain = 89.191
+INFO: [Common 17-1381] The checkpoint 'C:/Users/busheska/Desktop/ece212_angela_laxman-main/lab_09.runs/synth_1/testbench.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file testbench_utilization_synth.rpt -pb testbench_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Nov 19 20:39:17 2022...
