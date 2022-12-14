@@ -1,0 +1,4 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Simulation failed - expected to write m[84]=-33022, actual value          1
+$stop called at time : 80 ns : File "C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/testbench.sv" Line 48

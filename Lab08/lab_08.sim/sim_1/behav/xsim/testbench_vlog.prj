@@ -1,0 +1,27 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../../../../../Downloads/mips_L_single-master/mips_L_single-master/sv/adder.sv" \
+"../../../../../../../../../Downloads/mips_L_single-master/mips_L_single-master/sv/alu.sv" \
+"../../../../../../../../../Downloads/mips_L_single-master/mips_L_single-master/sv/mips_decls_p.sv" \
+"../../../../../../../../../Downloads/mips_L_single-master/mips_L_single-master/sv/aludec.sv" \
+"../../../../../../../../../Downloads/mips_L_single-master/mips_L_single-master/sv/controller.sv" \
+"../../../../../../../../../Downloads/mips_L_single-master/mips_L_single-master/sv/datapath.sv" \
+"../../../../../../../../../Downloads/mips_L_single-master/mips_L_single-master/sv/dmem.sv" \
+"../../../../../../../../../Downloads/mips_L_single-master/mips_L_single-master/sv/flopr.sv" \
+"../../../../../../../../../Downloads/mips_L_single-master/mips_L_single-master/sv/imem.sv" \
+"../../../../../../../../../Downloads/mips_L_single-master/mips_L_single-master/sv/maindec.sv" \
+"../../../../../../../../../Downloads/mips_L_single-master/mips_L_single-master/sv/mips.sv" \
+"../../../../../../../../../Downloads/mips_L_single-master/mips_L_single-master/sv/mux2.sv" \
+"../../../../mux3-8.sv" \
+"../../../../../../../../../Downloads/mips_L_single-master/mips_L_single-master/sv/regfile.sv" \
+"../../../../../../../../../Downloads/mips_L_single-master/mips_L_single-master/sv/signext.sv" \
+"../../../../../../../../../Downloads/mips_L_single-master/mips_L_single-master/sv/sl2.sv" \
+"../../../../../../../../../Downloads/mips_L_single-master/mips_L_single-master/sv/top.sv" \
+"../../../../zero_ext.sv" \
+"../../../../../../../../../Downloads/mips_L_single-master/mips_L_single-master/sv/testbench.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

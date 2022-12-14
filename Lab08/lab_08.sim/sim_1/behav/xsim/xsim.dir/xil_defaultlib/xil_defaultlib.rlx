@@ -1,0 +1,24 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/busheska/Desktop/ece212_angela_laxman-main/Lab01/projects/lab_08/lab_08.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/busheska/Desktop/ece212_angela_laxman-main/Lab01/projects/lab_08/mux3-8.sv,1667529928,systemVerilog,,C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/regfile.sv,,mux3,,uvm,,,,,,
+C:/Users/busheska/Desktop/ece212_angela_laxman-main/Lab01/projects/lab_08/zero_ext.sv,1667920391,systemVerilog,,C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/testbench.sv,,zero_ext,,uvm,,,,,,
+C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/adder.sv,1667304561,systemVerilog,,C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/alu.sv,,adder,,uvm,,,,,,
+C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/alu.sv,1667304561,systemVerilog,,C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/mips_decls_p.sv,,alu,,uvm,,,,,,
+C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/aludec.sv,1667914487,systemVerilog,,C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/controller.sv,,aludec,,uvm,,,,,,
+C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/controller.sv,1667920981,systemVerilog,,C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/datapath.sv,,controller,,uvm,,,,,,
+C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/datapath.sv,1667921465,systemVerilog,,C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/dmem.sv,,datapath,,uvm,,,,,,
+C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/dmem.sv,1667304561,systemVerilog,,C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/flopr.sv,,dmem,,uvm,,,,,,
+C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/flopr.sv,1667526996,systemVerilog,,C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/imem.sv,,flopr,,uvm,,,,,,
+C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/imem.sv,1667530659,systemVerilog,,C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/maindec.sv,,imem,,uvm,,,,,,
+C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/maindec.sv,1667920925,systemVerilog,,C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/mips.sv,,maindec,,uvm,,,,,,
+C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/mips.sv,1667921247,systemVerilog,,C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/mux2.sv,,mips,,uvm,,,,,,
+C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/mips_decls_p.sv,1667304561,systemVerilog,C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/aludec.sv;C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/controller.sv;C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/maindec.sv;C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/mips.sv,C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/aludec.sv,,mips_decls_p,,uvm,,,,,,
+C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/mux2.sv,1667304561,systemVerilog,,C:/Users/busheska/Desktop/ece212_angela_laxman-main/Lab01/projects/lab_08/mux3-8.sv,,mux2,,uvm,,,,,,
+C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/regfile.sv,1667304561,systemVerilog,,C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/signext.sv,,regfile,,uvm,,,,,,
+C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/signext.sv,1667304561,systemVerilog,,C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/sl2.sv,,signext,,uvm,,,,,,
+C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/sl2.sv,1667304561,systemVerilog,,C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/top.sv,,sl2,,uvm,,,,,,
+C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/testbench.sv,1667917066,systemVerilog,,,,testbench,,uvm,,,,,,
+C:/Users/busheska/Downloads/mips_L_single-master/mips_L_single-master/sv/top.sv,1667920713,systemVerilog,,C:/Users/busheska/Desktop/ece212_angela_laxman-main/Lab01/projects/lab_08/zero_ext.sv,,top,,uvm,,,,,,
